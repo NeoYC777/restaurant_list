@@ -1,0 +1,21 @@
+<!-- search bar -->
+<div class="container search-bar">
+  <div class="search-bar-outer">
+    <div class="search-bar-inner">
+      <form action="/search">
+        <h4 class="mb-2">尋找餐廳：</h4>
+        <div class="input-group">
+          <input type="text" name="keyword" class="form-control" placeholder="輸入餐廳、分類、地區" aria-label="Restaurant Name..."
+            value="{{keyword}}" aria-describedby="search-button">
+          <div class="input-group-append">
+            <button class="btn btn-major" type="submit" id="search-button"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<img class ="no-result"src="https://img.freepik.com/free-vector/feeling-sorry-concept-illustration_114360-3480.jpg?w=996&t=st=1661349120~exp=1661349720~hmac=da6573b76fa677564354e4668fd538b86f55ff3f14c102c30014edbd2477d294" alt="noResult">
+
+<h3 class="search-result">抱歉，找不到符合 "{{keyword}}" 的餐廳，請用其他關鍵字搜尋</h3>
