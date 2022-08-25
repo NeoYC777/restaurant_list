@@ -115,3 +115,9 @@ header {
   color: #9b4b4b;
   margin-top: 10px;
 }
+
+.card-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
